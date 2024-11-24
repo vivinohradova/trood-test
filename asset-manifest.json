@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/trood-test/static/css/main.ccaa6583.css",
+    "main.js": "/trood-test/static/js/main.db868718.js",
+    "static/media/Inter_Regular.ttf": "/trood-test/static/media/Inter_Regular.86c330c66f7333ff6202.ttf",
+    "static/media/Inter_Regular.woff": "/trood-test/static/media/Inter_Regular.0b3c76a31901556b113c.woff",
+    "static/media/Roboto-Regular.ttf": "/trood-test/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/Inter_Regular.woff2": "/trood-test/static/media/Inter_Regular.9a57fc95e3edab315ea1.woff2",
+    "static/media/Roboto-Regular.woff": "/trood-test/static/media/Roboto-Regular.f337b8880ca3d4b5b874.woff",
+    "static/media/Aeroport.ttf": "/trood-test/static/media/Aeroport.a6d29d57fa63956b9414.ttf",
+    "static/media/Roboto-Regular.woff2": "/trood-test/static/media/Roboto-Regular.86a2beffef3e35f5c867.woff2",
+    "static/media/Aeroport.woff": "/trood-test/static/media/Aeroport.ae08b9585c50b8e04f83.woff",
+    "static/media/Aeroport.woff2": "/trood-test/static/media/Aeroport.c0076c48a93b8059ca49.woff2",
+    "static/media/logo.svg": "/trood-test/static/media/logo.ea39bbd5375ccb17112b6225dcdb20a9.svg",
+    "index.html": "/trood-test/index.html",
+    "static/media/arrow-down.svg": "/trood-test/static/media/arrow-down.b86b5034a0a9c9ac131f41f6cabcb5a0.svg",
+    "main.ccaa6583.css.map": "/trood-test/static/css/main.ccaa6583.css.map",
+    "main.db868718.js.map": "/trood-test/static/js/main.db868718.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccaa6583.css",
+    "static/js/main.db868718.js"
+  ]
+}
