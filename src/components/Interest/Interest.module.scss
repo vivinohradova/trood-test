@@ -1,0 +1,118 @@
+@import '../../assets/scss/Colors.module.scss';
+
+.interestWrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  .tagWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .tagList {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+
+      .tag {
+        display: flex;
+        align-items: center;
+        background-color: none;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 12px;
+        font-size: 14px;
+        border: 1px solid $grey;
+
+        .removeButton {
+          background: none;
+          border: none;
+          color: $red;
+          font-size: 14px;
+          margin-left: 8px;
+          cursor: pointer;
+          font-weight: bold;
+
+          &:hover {
+            color: $hoverRed;
+          }
+        }
+      }
+    }
+  }
+  .addInterest {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+
+    .inputContainer {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .input {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        border-bottom: 1px solid $black;
+        font-size: 14px;
+        background: none;
+        margin-bottom: 20px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .addButton {
+        padding: 6px 8px;
+        margin-right: 10px;
+        border: none;
+        background-color: $blue;
+        color: white;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: $hoverBlue;
+        }
+      }
+    }
+
+    .plus {
+      cursor: pointer;
+      font-size: 20px;
+      color: $blue;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $hoverBlue;
+      }
+
+      &.active {
+        transform: rotate(45deg);
+        color: $red;
+
+        &:hover {
+          color: $hoverRed;
+        }
+      }
+    }
+  }
+
+  .error {
+    color: $red;
+    font-size: 12px;
+  }
+}

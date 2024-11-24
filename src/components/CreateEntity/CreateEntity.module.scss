@@ -1,0 +1,35 @@
+@import "../../assets/scss/Fonts.module.scss";
+@import "../../assets/scss/Colors.module.scss";
+
+.entityWrap {
+  font-family: $Inter;
+  margin: 20px;
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+  }
+  .create {
+    background: $greyBackground;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 12px;
+
+    .text {
+      font-weight: 500;
+      font-size: 16px;
+      color: $darkGrey;
+      position: absolute;
+      top: 25px;
+      left: 15px;
+    }
+    .plus {
+      color: $darkGrey;
+      font-size: 33px;
+      position: absolute;
+      top: 91px;
+      left: 201px;
+    }
+  }
+}

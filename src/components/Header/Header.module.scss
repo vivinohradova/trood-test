@@ -1,0 +1,44 @@
+@import "../../assets/scss/Fonts.module.scss";
+@import "../../assets/scss/Colors.module.scss";
+
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+
+  .arrow {
+    width: 39px;
+    height: 39px;
+  }
+
+  .logo {
+    max-width: 319px;
+    width: auto;
+    height: 54px;
+    padding: 0 30px;
+  }
+
+  .title {
+    font-family: $Aeroport;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 20px;
+    color: $black;
+  }
+}
+
+// Mobile 
+@media (max-width: 520px) {
+  .header {
+    .logo {
+      max-width: 200px;
+      padding: 0 10px ;
+    }
+
+    .title {
+      font-size: 2rem;
+    }
+  }
+
+}

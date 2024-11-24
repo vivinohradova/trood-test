@@ -1,0 +1,60 @@
+@import '../../assets/scss/Colors.module.scss';
+
+.linksWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+  .inputGroup {
+    display: flex;
+   
+    .input {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-bottom: 1px solid $black;
+      font-size: 14px;
+      background: none;
+      margin: 0 10px 10px 0;
+      width: 40px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .addButton {
+    cursor: pointer;
+    font-size: 20px;
+    color: $blue;
+    transition: color 0.2s;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: $hoverBlue;
+    }
+  }
+
+  .error {
+    color: $red;
+  }
+
+  .linksList {
+    .linkItem {
+      padding: 5px;
+    }
+  }
+
+  .removeButton {
+    color: $black;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

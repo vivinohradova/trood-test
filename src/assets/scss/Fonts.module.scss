@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Aeroport;
+    src: url(../fonts/Aeroport.woff2) format("woff2"),
+         url(../fonts/Aeroport.woff) format("woff"),
+         url(../fonts/Aeroport.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_Regular.woff2) format("woff2"),
+         url(../fonts/Inter_Regular.woff) format("woff"),
+         url(../fonts/Inter_Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.woff2) format("woff2"),
+         url(../fonts/Roboto-Regular.woff) format("woff"),
+         url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+
+$Roboto: "Roboto", sans-serif;
+$Aeroport: "Aeroport", sans-serif;
+$Inter: "Inter", sans-serif;

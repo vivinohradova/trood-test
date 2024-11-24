@@ -1,0 +1,35 @@
+@import "../../assets/scss/Fonts.module.scss";
+@import '../../assets/scss/Colors.module.scss';
+
+.wrapInput {
+width: 100%;
+
+  .label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .input {
+    font-family: $Roboto;
+    font-size: 15px;
+    width: 100%;
+    margin: 10px 0px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid $lightBlack;
+    border-radius: 5px;
+    height: 40px;
+
+    &:focus {
+        outline: none;
+    }
+  }
+}

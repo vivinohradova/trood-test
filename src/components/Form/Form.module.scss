@@ -1,0 +1,83 @@
+@import "../../assets/scss/Fonts.module.scss";
+@import '../../assets/scss/Colors.module.scss';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  min-height: 100px;  
+  height: auto;         
+ 
+  border-radius: 24px;
+  background: linear-gradient(
+    to bottom,
+    rgb(233, 242, 243) 0%,
+    rgb(166, 197, 227) 50%,
+    rgb(166, 197, 227) 100%
+  );
+  font-family: $Roboto;
+  font-weight: 400;
+  color: $grey;
+  padding: 0 25px;
+  position: relative;
+ 
+  .radioWrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+
+    .radio {
+      display: flex;
+      align-items: center;
+      height: 32px;
+      gap: 10px;
+
+      input[type="radio"] {
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border: 1px solid $grey;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        margin: 0;
+        margin-right: 8px;
+        background-color: none;
+        transition: background-color 0.2s, border-color 0.2s;
+
+        &:checked {
+          background-color: none;
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
+            background-color: $grey;
+            border-radius: 50%;
+          }
+        }
+        label {
+          display: flex;
+          align-items: center;
+          border: 1px solid $black;
+        }
+      }
+    }
+  }
+}
+
+
+// Mobile 
+@media (max-width: 520px) {
+  .form {
+    width: auto;
+  }
+}
